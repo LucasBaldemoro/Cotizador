@@ -1,0 +1,312 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+}
+
+.Contenedor {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/public/Casa.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  gap: 2.5rem;
+}
+
+.Contenedor--info {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  height: 100vh;
+  width: 50%;
+  gap: 2.5rem;
+
+  h1 {
+    font-size: 4rem;
+    width: 40rem;
+    font-family: "DM Serif Text", serif;
+  }
+
+  p {
+    font-size: 1rem;
+    width: 35rem;
+    font-family: "Prompt", sans-serif;
+  }
+}
+.Contenedor-Cabezera {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: antiquewhite;
+  width: 31.875rem;
+  height: 80vh;
+  box-shadow: 0px 0px 5px;
+  gap: 1.25rem;
+}
+
+h1,
+p {
+  margin: 0rem;
+}
+
+p {
+  width: 30rem;
+  font-family: "Prompt", sans-serif;
+}
+
+.ConteinerMetros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.TipoPropiedad {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.Propiedades {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.CasaButton {
+  height: 90.25px;
+  width: 8.833rem;
+  border: 1px solid;
+}
+
+.ConteinerMetros {
+  display: flex;
+}
+
+.SuperficieCubierta input {
+  height: 2rem;
+}
+
+.ButtonCalculo {
+  text-decoration: none;
+  color: white;
+  height: 2rem;
+  width: 5rem;
+  background-color: black;
+}
+
+.ValorUbicacionPropiedad {
+  height: 2rem;
+  width: 300px;
+}
+
+.PrecioTotal {
+  font-size: 3rem;
+  color: brown;
+}
+
+.BotonCalculo {
+  background-color: antiquewhite;
+}
+
+.Oferta {
+  width: 20rem;
+  font-size: 2.5rem;
+
+  background-color: beige;
+  border-radius: 1.625rem;
+}
+
+ul {
+  width: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Oferta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*---------------- formulario*/
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.875rem;
+
+  p {
+    width: 25rem;
+    text-align: center;
+  }
+}
+
+h2 {
+  font-family: "DM Serif Text", serif;
+  font-size: 2rem;
+}
+
+.ingresobasico {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-family: "Prompt", sans-serif;
+
+  .ingresobasicousuario {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+  }
+}
+
+.segundocontendor {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: row;
+  width: 23rem;
+  gap: 1.25rem;
+  font-family: "Prompt", sans-serif;
+}
+
+.Edadusuario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  input {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+.Propiedades {
+  font-family: "Prompt", sans-serif;
+}
+
+.UbicacionPropiedad {
+  font-family: "Prompt", sans-serif;
+}
+
+.ValorUbicacionPropiedad {
+  width: 14rem;
+  padding: 0rem;
+}
+
+.BotonGuardado {
+  background-image: url(/public/iconoguardado.ico);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  height: 10rem;
+  width: 10rem;
+
+  border: 1px solid;
+  color: transparent;
+
+}
+
+/*------------------------------------*/
+
+.PrecioTotal {
+  font-size: 1.2rem;
+}
+
+.BotonCalculo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  border: 2px solid white;
+  height: 3rem;
+  width: 10rem;
+}
+
+/**++++++++++++++++++++++++++++*/
+
+.cotenedorHistorial {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.875rem;
+
+h1{
+  font-size: 3rem;
+}
+
+p{
+  text-align: center;
+}
+
+  table {
+    border: 1px solid white;
+    height: 10rem;
+    width: 50rem;
+  }
+
+}
+
+
+
+
+
+tr {
+  height: 1rem;
+}
+
+th{
+  border: 3px solid white;
+
+}
+td {
+  border: 1px solid white;
+}
+
+td {
+  height: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------*/
+
+
+nav{
+  height: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5.25rem;
+}
+
+
